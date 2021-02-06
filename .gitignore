@@ -1,0 +1,6 @@
+*/history/
+*/build/
+*.o
+*.bin
+*.elf
+*.hex
