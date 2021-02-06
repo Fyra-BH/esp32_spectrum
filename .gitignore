@@ -1,6 +1,4 @@
 .vscode/
-history/
-*/build/
 *.o
 *.bin
 *.elf
