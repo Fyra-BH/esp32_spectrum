@@ -1,0 +1,5 @@
+source "C:/Users/24727/esp/components/efuse/Kconfig"
+source "C:/Users/24727/esp/components/esp32/Kconfig"
+source "C:/Users/24727/esp/components/esp_common/Kconfig"
+source "C:/Users/24727/esp/components/log/Kconfig"
+source "C:/Users/24727/esp/components/spi_flash/Kconfig"

@@ -1,0 +1,4 @@
+source "C:/Users/24727/esp/components/app_update/Kconfig.projbuild"
+source "C:/Users/24727/esp/components/bootloader/Kconfig.projbuild"
+source "C:/Users/24727/esp/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/24727/esp/components/partition_table/Kconfig.projbuild"
