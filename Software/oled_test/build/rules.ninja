@@ -1446,7 +1446,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_comp_test
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER____idf_eeprom
+rule C_COMPILER____idf_oled_ssd1306
   depfile = $DEP_FILE
   deps = gcc
   command = ccache C:\Users\24727\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
@@ -1456,7 +1456,7 @@ rule C_COMPILER____idf_eeprom
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER____idf_eeprom
+rule CXX_STATIC_LIBRARY_LINKER____idf_oled_ssd1306
   command = cmd.exe /C "$PRE_LINK && C:\Users\24727\.espressif\tools\cmake\3.16.4\bin\cmake.exe -E remove $TARGET_FILE && C:\Users\24727\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\24727\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
@@ -1466,7 +1466,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_eeprom
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\24727\.espressif\tools\cmake\3.16.4\bin\cmake.exe -SC:\Users\24727\Desktop\esp32_spectrum1\oled_test -BC:\Users\24727\Desktop\esp32_spectrum1\oled_test\build
+  command = C:\Users\24727\.espressif\tools\cmake\3.16.4\bin\cmake.exe -SC:\Users\24727\Desktop\esp32_spectrum\Software\oled_test -BC:\Users\24727\Desktop\esp32_spectrum\Software\oled_test\build
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/24727/Desktop/esp32_spectrum1/oled_test/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

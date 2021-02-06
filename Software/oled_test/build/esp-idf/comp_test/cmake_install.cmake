@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/24727/Desktop/esp32_spectrum1/oled_test/components/comp_test
+# Install script for directory: C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/components/comp_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

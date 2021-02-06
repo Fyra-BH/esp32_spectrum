@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/24727/esp/components/bootloader/subproject",
-    "build_dir":          "C:/Users/24727/Desktop/esp32_spectrum1/oled_test/build/bootloader",
-    "config_file":        "C:/Users/24727/Desktop/esp32_spectrum1/oled_test/sdkconfig",
+    "build_dir":          "C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/bootloader",
+    "config_file":        "C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
