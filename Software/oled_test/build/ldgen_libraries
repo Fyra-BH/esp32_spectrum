@@ -34,6 +34,7 @@ C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/asio/liba
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/cbor/libcbor.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/coap/libcoap.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/console/libconsole.a
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/libesp-dsp.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/nghttp/libnghttp.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-tls/libesp-tls.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp_adc_cal/libesp_adc_cal.a
@@ -64,5 +65,4 @@ C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/ulp/libul
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/unity/libunity.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/main/libmain.a
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/libcomp_test.a
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/oled_ssd1306/liboled_ssd1306.a

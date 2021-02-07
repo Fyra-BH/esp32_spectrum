@@ -1,4 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////	 
+/*********************************************************************************/	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //中景园电子
 //店铺地址：http://shop73023976.taobao.com/?spm=2013.1.0.0.M4PqC2
@@ -242,28 +242,7 @@ void OLED_Init(void)
     //configure GPIO with the given settings
     gpio_config(&io_conf);
 
-
-
- 	// GPIO_InitTypeDef  GPIO_InitStructure;
- 	
- 	// RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);	 //使能A端口时钟
-	// GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4|GPIO_Pin_5|GPIO_Pin_7;	 
- 	// GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
-	// GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;//速度50MHz
- 	// GPIO_Init(GPIOA, &GPIO_InitStructure);	  //初始化GPIOD3,6
- 	// GPIO_SetBits(GPIOA,GPIO_Pin_5|GPIO_Pin_7|GPIO_Pin_4);	
-	
-	// RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);	 //使能A端口时钟
-	// GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_8;	 
- 	// GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
-	// GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;//速度50MHz
- 	// GPIO_Init(GPIOB, &GPIO_InitStructure);	  //初始化GPIOD3,6
- 	// GPIO_SetBits(GPIOB,GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_8);	
-
-
-
- 
-  OLED_RST_Set();
+  	OLED_RST_Set();
 	delay_ms(100);
 	OLED_RST_Clr();
 	delay_ms(200);

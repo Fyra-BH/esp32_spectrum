@@ -367,6 +367,13 @@ C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/console/C
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/console/CMakeFiles/rebuild_cache.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/console/CMakeFiles/list_install_components.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/console/CMakeFiles/install/strip.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/install/strip.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/__idf_esp-dsp.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/install/local.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/install.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/edit_cache.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/rebuild_cache.dir
+C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/esp-dsp/CMakeFiles/list_install_components.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/nghttp/CMakeFiles/install/local.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/nghttp/CMakeFiles/install.dir
@@ -603,13 +610,6 @@ C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/main/CMak
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/main/CMakeFiles/rebuild_cache.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/main/CMakeFiles/list_install_components.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/main/CMakeFiles/install/strip.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/__idf_comp_test.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/install/local.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/install.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/edit_cache.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/rebuild_cache.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/list_install_components.dir
-C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/comp_test/CMakeFiles/install/strip.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/oled_ssd1306/CMakeFiles/install/local.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/oled_ssd1306/CMakeFiles/install.dir
 C:/Users/24727/Desktop/esp32_spectrum/Software/oled_test/build/esp-idf/oled_ssd1306/CMakeFiles/edit_cache.dir
