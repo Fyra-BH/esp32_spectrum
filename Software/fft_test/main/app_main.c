@@ -40,6 +40,7 @@ int max_index(float* buff, int len)
     int index = 0;
     for (size_t i = 0; i < len; i++)
     {
+        // printf("i = %d, d = %f\n", i , buff[i]);
         if( buff[i] > m)
         {
             m = buff[i];
@@ -77,19 +78,19 @@ void data_process(void)
 {
     dsps_fft2r_fc32(cpx_ary, N);
     dsps_bit_rev_fc32(cpx_ary, N);
-    dsps_cplx2reC_fc32(cpx_ary, N);
+    // dsps_cplx2reC_fc32(cpx_ary, N);
 
     for (size_t i = 0; i < N; i++)
     {
         // mag_out[i] = 10 * log10f(cpx_ary[2 * i] * cpx_ary[2 * i] + 
         // cpx_ary[2 * i + 1] * cpx_ary[2 * i + 1] ) / N;
-          mag_out[i] = 10*log10f((cpx_ary[2 * i] * cpx_ary[2 * i] + cpx_ary[2 * i + 1] * cpx_ary[2 * i + 1])/N);
+        mag_out[i] = 10*log10f((cpx_ary[2 * i] * cpx_ary[2 * i] + cpx_ary[2 * i + 1] * cpx_ary[2 * i + 1])/N);
     }
     ESP_LOGW(TAG, "Signal mag_out");
     dsps_view(mag_out, N, 64, 10,  -60, 40, '|');
-    int idx = max_index(cpx_ary, N / 2);
+    int idx = max_index(mag_out, N / 2);
     printf("MAX index = %d\n", idx);
-    printf("so freq = %0.2f\n", fs * 2 * idx / (float) N);
+    printf("so freq = %0.2f\n", fs * idx / (float) N);
 }
 
 
