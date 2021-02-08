@@ -1,0 +1,10 @@
+Added Component: Designator=OLED1(2.54mm1*7PIN)
+Added Pin To Net: NetName=GND Pin=OLED1-1
+Added Pin To Net: NetName=3V3 Pin=OLED1-2
+Added Pin To Net: NetName=OLED_CLK Pin=OLED1-3
+Added Pin To Net: NetName=OLED_DIN Pin=OLED1-4
+Added Pin To Net: NetName=OLED_RES Pin=OLED1-5
+Added Pin To Net: NetName=OLED_DC Pin=OLED1-6
+Added Pin To Net: NetName=OLED_CS Pin=OLED1-7
+Added Member To Class: ClassName=Sheet Member=Component OLED1 OLED-7PIN
+Added Room: Name=Sheet
