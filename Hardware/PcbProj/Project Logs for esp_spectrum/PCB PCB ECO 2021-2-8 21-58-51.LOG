@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=5V Pin=H1-1
-Added Component: Designator=S1(MSK-12C01-07)
-Added Pin To Net: NetName=5V Pin=S1-1
-Added Pin To Net: NetName=NetH1_1 Pin=H1-1
-Added Pin To Net: NetName=NetH1_1 Pin=S1-2
-Added Net: Name=NetH1_1
-Added Member To Class: ClassName=Sheet Member=Component R5 4.7K¦¸
-Added Member To Class: ClassName=Sheet Member=Component S1 SWHITCH
-Added Room: Name=Sheet

@@ -1,6 +1,0 @@
-Remove Pin=S1-1 From Net=5V
-Change Component Comment: Designator=C3 Old Comment=1uF New Comment=105
-Change Component Comment: Designator=C4 Old Comment=10nF New Comment=103
-Change Component Comment: Designator=C6 Old Comment=10uF New Comment=106
-Change Component Designator: OldDesignator=I1 NewDesignator=L1
-Add Pin To Net: Pin=C8-1 Old Net=NetC8_1 New Net=GND
