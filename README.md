@@ -7,6 +7,6 @@
 
 在Ubuntu下安装好esp-idf，然后执行flash.sh脚本
 
-上传main.py
+上传main.py和ssd1306.py
 
 enjoy
